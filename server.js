@@ -30,8 +30,8 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
-require("app/routing/apiroutes")(app);
-require("app/routing/htmlRoutes")(app);
+require("/app/routing/apiroutes")(app);
+require("/app/routing/htmlRoutes")(app);
 
 // ==============================================================================
 // LISTENER
